@@ -1,0 +1,112 @@
+/* Grundläggande styling för hela sidan */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f2ef;
+    color: #333333;
+}
+
+/* Header */
+.header {
+    background-color: #0077B5; /* LinkedIn blå */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Profilcontainer */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profilbild */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sektionerna */
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #0077B5;
+    border-bottom: 2px solid #0077B5;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Listor för erfarenhet och utbildning */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li strong {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Färdigheter */
+.skills ul li {
+    display: inline-block;
+    background-color: #0077B5;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+/* Länkar */
+a {
+    color: #0077B5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries för responsivitet */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+}
